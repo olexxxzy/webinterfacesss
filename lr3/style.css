@@ -1,0 +1,101 @@
+/* style.css */
+
+/* Общие стили */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Меню сайта */
+.menu {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Страница "Подробное описание товара" */
+.product-description {
+    background-color: #eaeaea;
+    padding: 20px;
+}
+
+.product-description h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product-description p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product-description .detailed-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product-description ul.characteristics {
+    margin-left: 20px;
+}
+
+.product-description ul.characteristics li {
+    margin-bottom: 5px;
+}
+
+/* Страница "Контакты" */
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Рамка для изображений на странице "Подробное описание товара" */
+.product-image {
+    border: 2px solid #ccc; /* Произвольный цвет */
+}
